@@ -48,6 +48,7 @@ Use the following command to start Geth:
     --mainnet
 ```
 ![Geth build](sreenshots/GethBuild.png)
+
 ---
 
 ## Consensus Client: Lighthouse
