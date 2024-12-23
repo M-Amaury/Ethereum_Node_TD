@@ -17,7 +17,7 @@ This guide outlines the steps to set up an Ethereum node with the Execution Clie
 ### Installation
 0. Go installation :
 
-   ![Go installation](sreenshots/go_vers.png)
+   ![Go installation](screenshots/go_vers.png)
    
 2. Clone the Geth repository:
     ```bash
@@ -33,7 +33,7 @@ This guide outlines the steps to set up an Ethereum node with the Execution Clie
     ```bash
     make geth
     ```
-![Interface utilisateur](sreenshots/Installation_GETH.png)
+![Geth installation](screenshots/Installation_GETH.png)
 
 ### Starting Geth
 
@@ -47,7 +47,7 @@ Use the following command to start Geth:
     --http.api eth,net,admin \
     --mainnet
 ```
-![Interface utilisateur](sreenshots/GethBuild.png)
+![Geth build](sreenshots/GethBuild.png)
 ---
 
 ## Consensus Client: Lighthouse
@@ -78,7 +78,7 @@ Initially, Prysm was tested as the consensus client, but due to syncing issues, 
     make
     ```
 
-![Interface utilisateur](sreenshots/Cargo_lighthouse.png)
+![Cargo and lighthouse installation](screenshots/Cargo_lighthouse.png)
 
 ### JWT Creation
 
@@ -103,7 +103,7 @@ Command to start Lighthouse and begin syncing:
 ```
 
 
-![Interface utilisateur](sreenshots/ligh_exec.png)
+![Start lighthouse](screenshots/ligh_exec.png)
 ---
 
 ## Creating Systemd Services
@@ -144,7 +144,7 @@ To ensure Geth and Lighthouse run as background services, you can create systemd
     sudo systemctl enable geth.service
     ```
 
-![Interface utilisateur](sreenshots/Geth_service.png)
+![Geth service](screenshots/Geth_service.png)
 
 ### Lighthouse Service
 
@@ -180,7 +180,7 @@ To ensure Geth and Lighthouse run as background services, you can create systemd
     sudo systemctl enable lighthouse.service
     ```
 
-![Interface utilisateur](sreenshots/Light_service.png)
+![Lighthouse service](screenshots/Light_service.png)
 
 ---
 
