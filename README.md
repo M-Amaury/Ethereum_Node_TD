@@ -186,6 +186,10 @@ To ensure Geth and Lighthouse run as background services, you can create systemd
 
 ---
 
+### Services status and sync
+
+![Lighthouse service](screenshots/services_status.png)
+
 ## Troubleshooting
 
 - **Execution Client Issues:**
