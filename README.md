@@ -17,7 +17,7 @@ This guide outlines the steps to set up an Ethereum node with the Execution Clie
 ### Installation
 0. Go installation :
 
-   ![Interface utilisateur](sreenshots/go_vers.png)
+   ![Go installation](sreenshots/go_vers.png)
    
 2. Clone the Geth repository:
     ```bash
