@@ -104,6 +104,7 @@ Command to start Lighthouse and begin syncing:
 
 
 ![Start lighthouse](screenshots/ligh_exec.png)
+
 ---
 
 ## Creating Systemd Services
