@@ -47,7 +47,7 @@ Use the following command to start Geth:
     --http.api eth,net,admin \
     --mainnet
 ```
-![Geth build](sreenshots/GethBuild.png)
+![Geth build](screenshots/GethBuild.png)
 
 ---
 
